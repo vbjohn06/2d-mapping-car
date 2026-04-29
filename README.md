@@ -4,7 +4,7 @@ A Mechatronics engineering project designed to navigate a room perimeter autonom
 
 | Robot Build | Live Demo |
 | :---: | :---: |
-| ![Image of Car Build](Docs/full_build.HEIC) | [![Watch Video](Docs/full_build.HEIC)](Docs/demo_video.mp4) |
+| ![Image of Car Build](Docs/full_build.HEIC) | [![2D Mapping Car Demo](https://img.youtube.com/vi/CDQi3uIZbc0/0.jpg)](https://youtube.com/shorts/CDQi3uIZbc0) |
 
 ## 🛠 Features
 * **Differential Odometry:** Real-time tracking of $x$, $y$, and $\theta$ (heading) using high-resolution quadrature encoders.
