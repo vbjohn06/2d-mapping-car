@@ -18,7 +18,7 @@ A Mechatronics engineering project designed to navigate a room perimeter autonom
 * **Controller:** Arduino MEGA 2560 (ATmega2560)
 * **Sensors:** HC-SR04 Ultrasonic Sensor, Dual Quadrature Encoders
 * **Communication:** USB Serial Interface (115200 Baud)
-* **Chassis:** Two-wheel differential drive (N20 encoder motors) with a front swivel caster
+* **Chassis:** Two-wheel differential drive (N20 encoder motors driven by L298N driver) with a front swivel caster
 * **Power:** 7.4V Li-ion Battery Pack
 
 ---
@@ -47,6 +47,21 @@ The firmware cycles through three primary states to ensure reliable navigation:
       pip install matplotlib numpy pyserial
       ```
 * `/Docs`: Technical diagrams for sensor placement and coordinate system geometry.
+
+---
+
+## Technical Difficulties
+
+* **Wireless Communication:** Initially attempted to utilize an **HC-05 Bluetooth module** to stream data and preserve Arduino SRAM. However, the module encountered persistent driver incompatibilities with the host laptop, necessitating a shift in data handling.
+* **Hardware Failure:** During hardware integration testing, the **servo motor** controlling the ultrasonic sensor sweep experienced an electrical short. As a result, the sensor is currently in a fixed-forward position for the mapping logic.
+
+---
+
+## How to Run
+1. Allow the car to follow the perimeter of the room.
+2. Open the `map_plotting.py` file and wait for data transmission.
+3. Press the data transmission button on the breadboard.
+5. PNG file of the map output should open.
 
 ---
 
