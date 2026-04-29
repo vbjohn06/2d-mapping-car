@@ -2,9 +2,9 @@
 
 A Mechatronics engineering project designed to navigate a room perimeter autonomously and generate a 2D spatial map. The robot uses custom odometry math and ultrasonic projection to transform raw sensor data into a high-definition car path.
 
-| Robot Build | Live Demo |
+| Robot Build | ![Image of Car Build](Docs/full_build.jpg) |
 | :---: | :---: |
-| ![Image of Car Build](Docs/full_build.jpg) | [![2D Mapping Car Demo](https://img.youtube.com/vi/CDQi3uIZbc0/0.jpg)](https://youtube.com/shorts/CDQi3uIZbc0) |
+| Live Demo | [![2D Mapping Car Demo](https://img.youtube.com/vi/CDQi3uIZbc0/0.jpg)](https://youtube.com/shorts/CDQi3uIZbc0) |
 
 ## 🛠 Features
 * **Differential Odometry:** Real-time tracking of $x$, $y$, and $\theta$ (heading) using high-resolution quadrature encoders.
