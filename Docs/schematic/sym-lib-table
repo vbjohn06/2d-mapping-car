@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Mapping_Car_Parts") (type "KiCad") (uri "${KIPRJMOD}/Mapping_Car_Parts.kicad_sym") (options "") (descr ""))
+)
