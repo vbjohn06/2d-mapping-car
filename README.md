@@ -4,7 +4,7 @@ A Mechatronics engineering project designed to navigate a room perimeter autonom
 
 | Robot Build | ![Image of Car Build](Docs/full_build.jpg) |
 | :---: | :---: |
-| Robot Schematic | ![Image of Car Schematic](Docs/full_build.jpg) |
+| Robot Schematic | ![Image of Car Schematic](Docs/schematic/schematic.pdf) |
 | Live Demo | [![2D Mapping Car Demo](https://img.youtube.com/vi/CDQi3uIZbc0/0.jpg)](https://youtube.com/shorts/CDQi3uIZbc0) |
 
 ## 🛠 Features
